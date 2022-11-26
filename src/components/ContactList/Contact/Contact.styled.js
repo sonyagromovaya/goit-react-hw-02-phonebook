@@ -53,6 +53,3 @@ export const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-// .widget ul > li:nth-child(2n+2) a {
-//      background-color: #96E8E5;
-// }
