@@ -4,6 +4,7 @@ import {
   StyledButton,
   StyledSpan1,
   StyledSpan2,
+  StyledDiv,
   StyledLi,
 } from './Contact.styled';
 
@@ -17,8 +18,10 @@ export default class Contact extends Component {
           const { id, name, number } = contact;
           return (
             <StyledLi key={id}>
-              <StyledSpan1 className="contact-name">{name}:</StyledSpan1>
-              <StyledSpan2 className="phone-number">{number}</StyledSpan2>
+              <StyledDiv className="wrapper">
+                <StyledSpan1 className="contact-name">{name}:</StyledSpan1>
+                <StyledSpan2 className="phone-number">{number}</StyledSpan2>
+              </StyledDiv>
               <StyledButton type="button" name={id} onClick={onClick}>
                 Delete
               </StyledButton>

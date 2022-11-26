@@ -47,7 +47,12 @@ export const StyledLi = styled.li`
   border-radius: 10px;
 `;
 
-// export const StyledLi = styled.li`
+export const StyledDiv = styled.div`
+  width: 100%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+`;
 // .widget ul > li:nth-child(2n+2) a {
 //      background-color: #96E8E5;
 // }
